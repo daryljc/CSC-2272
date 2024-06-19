@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Antique Hair Combs</title>
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <style>
+        #purchaseHeader {
+            font-size: 1.8em;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="price.html">Price</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <ul class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="purchase-form">
+            <h1 id="purchaseHeader">Purchase Antique Hair Combs</h1>
+            <form action="/submit-order" method="post">
+                <label for="customer-name">Full Name:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Shipping Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="quantity">Number of Combs:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="engraving">Do you want it engraved?</label>
+                <select id="engraving" name="engraving">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+
+                <div id="engraving-details" style="display: none;">
+                    <label for="engraving-text">Engraving Text (40 character limit):</label>
+                    <input type="text" id="engraving-text" name="engraving-text" maxlength="40">
+
+                    <label for="font-choice">Choice of Font:</label>
+                    <select id="font-choice" name="font-choice">
+                        <option value="serif">Serif</option>
+                        <option value="sans-serif">Sans-serif</option>
+                        <option value="cursive">Cursive</option>
+                    </select>
+                </div>
+
+                <label for="international-shipping">Is it to be shipped internationally?</label>
+                <select id="international-shipping" name="international-shipping">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+
+                <button type="submit">Submit Purchase</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

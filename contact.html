@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Antique Hair Combs</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <style>
+        .contact-info {
+            font-size: 1.2em;
+            margin: 20px;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="price.html">Price</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <ul class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="purchase-form">
+            <h1 id="purchaseHeader">Leave a Message</h1>
+            <form action="/submit-order" method="post">
+                <label for="customer-name">Full Name:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="engraving">Do you want us to leave a message?</label>
+                <select id="engraving" name="engraving">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+
+                <div id="engraving-details" style="display: none;">
+                    <label for="engraving-text">Message:</label>
+                    <input type="text" id="engraving-text" name="engraving-text" maxlength="40">
+                </div>
+
+                <button type="submit">Submit Entry</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
