@@ -1,0 +1,41 @@
+Instructions for Maintenance:
+To keep the website running smoothly..
+ - Make certain that all of the CSS maintains consistent spacing and layout. 
+ - Check the HTML, more specifically the structure of it, for correct 
+ links and organize content in a sense that apeases your logical 
+ intuition. 
+ - Update navigation links and test them across different devices to 
+ make sure it functions properly. 
+ - Confirm the favicon (`LMfavicon.ico`) displays correctly. 
+ - Update JavaScript (`LMform.js`) for functionality when necessary and 
+ check for any issues like broken links or outdated content.
+
+
+Instructions:
+Ö Create a new account in Netlify.
+Ö Add a new site.
+Ö Import a project.
+Ö Try Netlify drop!
+Ö Upload your folder of your zipped project from NetBeans.
+Ö Preview your file.
+Ö Take a screen shot of the preview of the file.
+Ö Investigate the Netlify site and see how you can host a website 
+using a customized Netlify domain.
+
+I’m not sure yet if I want a full code site or a low code site. Please 
+go to weebly.com and make a new site for this page and publish it.
+
+----------------------------------------------------------------------
+
+Use this box below to check your work is all completed for Hair Comb 
+site:
+
+Phase One – Basic Build (Check When Completed)
+Ö Index.html
+Ö index_2.html
+Ö form.html
+Ö mottos.html
+Ö index.css
+Ö forms.css
+Ö colorpalette.txt
+

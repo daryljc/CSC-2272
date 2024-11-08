@@ -1,0 +1,36 @@
+1.,
+Monochromatic: Soilboy, https://www.soilboy.sg/
+Analogous: Evernote, https://evernote.com/
+Complementary: FexEx, https://www.fedex.com/en-us/home.html
+Triad: Slack, https://slack.com/
+
+2., 
+Of the four sites I found, the most visually-appealing one from the bunch
+has to be Soilboy. Their dissimulated use of a color that matches the 
+pigmentation of each plant for the background is impressive; it is a color
+that nearly embodies the natural world in my mind. They also cleverly 
+repurpose this color with a lighter hue of it for spots that long for 
+contrast in order for effective presentation to be executed. Props to 
+them in general.
+
+3.,
+I chose a complementary color scheme as I personally found that resorting 
+to singularity when it comes to a website makes it quite bland. It was also
+quite simple to implement into my website considering the grid system that 
+I opted for in the creation of the site; going for a color triad or a set 
+of 3 analogous colors would have posed to be more taxing in comparison to
+2 complementary colors.
+
+Unrelated: Colors I used and didn't use for my site in hexadecimal (repository):
+
+#d1bda1 - Beige
+
+#d2a158 - Fading gold
+
+#6f888f - Bluish gray
+
+#594231 - Dark brown
+
+#a5653f - Light brown
+
+#000000 - Pitch black

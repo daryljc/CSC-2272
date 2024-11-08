@@ -1,0 +1,9 @@
+Color palette:
+ - #D8DEE6
+ - #9AA8B9
+ - #3d3d3d
+ - #212121
+ - #FFFFFF
+ - #540000
+ - #F2F2F2
+ - #4CAF50

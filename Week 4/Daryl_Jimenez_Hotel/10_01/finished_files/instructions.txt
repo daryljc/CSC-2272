@@ -1,0 +1,10 @@
+Client Updates:
+Dear Web Dev team, please update my site. I don’t have the time to do it myself.
+
+7. Please add another page called “Spa”. We have massages and a nail spa. Please
+add some nice pictures. The massages price list is available at the check in desk.
+We do not want to post the prices on the website because the owner of the spa is a
+nightmare to work with and keeps changing her mind. We couldn’t possibly keep up
+with her so for now, we will just list prices are available at check in. Please add their
+phone number too: 44.555.121212. Make sure you have an nice favicon for that new
+page. I don’t want it to look odd.

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Mottos Site: Form</title>
+    <link rel="stylesheet" href="P4_LMform.css">
+    <link rel="icon" type="image/x-icon" href="LMfavicon.ico">
+</head>
+<body>
+    <div id="page">
+        <div class="gridContainer1">
+            <div id="gridItemSurround1" class="GC1gridItems"></div>
+            <div id="gridItemSurround2" class="GC1gridItems"></div>
+            <div id="gridItemSurround3" class="GC1gridItems"></div>
+
+            <div id="GC1gridItem1">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="P1_LMbiography1.html">Biography 1</a></li>
+                        <li><a href="P2_LMbiography2.html">Biography 2</a></li>
+                        <li><a href="P3_LMmottos.html">Mottos</a></li>
+                        <li><a href="P4_LMform.html">Form</a></li>
+                    </ul>
+                    <div class="nav-toggle" onclick="toggleMenu()">
+                        <div class="hamburger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu">
+                        <ul class="menu-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="price.html">Price</a></li>
+                            <li><a href="purchase.html">Purchase</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="GC1gridItem2" class="GC1gridItems">
+                <section class="contact-form">
+                    <h1>Leave a Motto!</h1>
+                    <form action="/submit-message" method="post">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age:</label>
+                            <input type="number" id="age" name="age" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Motto:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit Entry</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="LMform.js"></script>
+</body>
+</html>

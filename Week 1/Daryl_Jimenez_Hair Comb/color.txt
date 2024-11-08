@@ -1,0 +1,4 @@
+#3D251B - Dark Brown (Navbar, Buttons)
+#F3F0EB - White (Background)
+#fff - Light Gray (Form Input Background)
+##9C8E88 - Stained Grey (Button Text)
